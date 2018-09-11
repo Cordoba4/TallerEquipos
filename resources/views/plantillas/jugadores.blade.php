@@ -11,12 +11,12 @@
     <center>
     <table border=1>
         <tr>
-            <td colspan=3><center><b> @yield('table') </b</center></td>
+            <th colspan=3><center>@yield('table')</center></th>
         </tr>
         <tr>
-            <td><center><b> @yield('No') </b</center></td>
-            <td><center><b> @yield('Nombre') </b</center></td>
-            <td><center><b> @yield('posicion') </b</center></td>
+            <th><center> @yield('No')</center></th>
+            <th><center>@yield('Nombre')</center></th>
+            <th><center>@yield('posicion')</center></th>
         </tr>
 
         @for($i=0;$i<count($jugador);$i++)
@@ -28,7 +28,7 @@
         @endfor
 
         <tr>
-            <td colspan=3><center><b> @yield('footer') </b</center></td>
+            <th colspan=3><center>@yield('footer')</center></th>
         </tr>
     </table>
     </center>

@@ -30,7 +30,7 @@
         @endforeach
        
         <tr>
-            <td colspan=3><center><b> @yield('footer') </b</center></td>
+            <th colspan=3><center>@yield('footer')</center></th>
         </tr>
     </table>
     </center>

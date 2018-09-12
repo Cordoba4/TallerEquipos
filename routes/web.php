@@ -32,3 +32,11 @@ Route::get('/equipos', function () {
         
     ]);
 });
+
+//----------con controlador---------------------------------------
+
+Route::resource('/controJugadores','JugadoresController');
+
+Route::resource('/controEquipo','EquiposController');
+
+//----------------------------------------------------------------
